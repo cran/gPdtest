@@ -1,0 +1,9 @@
+4b420461cf80ad839ae8a7387263c082 *DESCRIPTION
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+bf00eec3106280bdc6f618b33a505a0b *R/gpd.fit.R
+c997d271b3ef930c44a46a313f374e34 *R/gpd.test-internal.R
+e1d4fd4351da6104370e93d50d900768 *R/gpd.test.R
+777c629142b859ed0d531709ba2d7c03 *R/rgp.R
+b3e7c43507dea7fd6e38a3e338ab89aa *man/gpd.fit.Rd
+4425697edc39d5da37eff67aa410cb4a *man/gpd.test.Rd
+86126aedd0ffd2d038278157877ed8bc *man/rgp.rd

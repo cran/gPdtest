@@ -1,13 +1,13 @@
-\name{gPd.test}
-\alias{gPd.test}
+\name{gpd.test}
+\alias{gpd.test}
 \title{ Bootstrap goodness-of-fit test for the generalized Pareto distribution}
 \description{
-This function computes the bootstrap goodness-of-fit test proposed by Villasenor-Alva and Gonzalez-Estrada (2009) for testing the null hypothesis
+This function computes the bootstrap goodness-of-fit test by Villasenor-Alva and Gonzalez-Estrada (2009) for testing the null hypothesis
 \eqn{H_0:}{H_0:} a random sample has a  generalized Pareto distribution (gPd) with unknown shape parameter
 \eqn{\gamma}{gamma}, which is a real number.
 }
 \usage{
-gPd.test(x,J)
+gpd.test(x,J)
 }
 \arguments{
   \item{x}{ numeric data vector containing a random sample from a distribution function with support on the positive real numbers.}
@@ -31,10 +31,10 @@ We consider the distribution function  of the gPd with shape and scale parameter
 }
 \references{ Villasenor-Alva, J.A. and Gonzalez-Estrada, E. (2009). A bootstrap goodness of fit test for the generalized Pareto distribution. \emph{Computational Statistics and Data Analysis},\bold{53},11,3835-3841.  }
 \author{ Elizabeth Gonzalez Estrada \email{egonzalez@colpos.mx}, Jose A. Villasenor Alva }
-\seealso{  \code{\link{gPd.fit}} for fitting a gPd to data,  \code{\link{rgPd}} for generating  gPd random numbers.}
+\seealso{  \code{\link{gpd.fit}} for fitting a gPd to data,  \code{\link{rgp}} for generating  gPd random numbers.}
 \examples{
-x <-  rgPd(20,shape = 1)   	## Random sample of size 20
-gPd.test(x)                 ## Testing the gPd hypothesis on x
+x <-  rgp(20,shape = 1)   	## Random sample of size 20
+gpd.test(x)                 ## Testing the gPd hypothesis on x
 }
 \keyword{ htest }
 \concept{ hypothesis testing}

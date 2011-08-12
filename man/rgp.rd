@@ -1,11 +1,11 @@
-\name{rgPd}
-\alias{rgPd}
+\name{rgp}
+\alias{rgp}
 \title{ Generalized Pareto random numbers}
 \description{
 This function generates pseudo random numbers from a generalized Pareto distribution (gPd).
 }
 \usage{
-rgPd(n,shape,scale)
+rgp(n,shape,scale)
 }
 \arguments{
   \item{n}{ sample size.}
@@ -24,8 +24,8 @@ rgPd(n,shape,scale)
   A vector of length \code{n}.
 }
 \author{ Elizabeth Gonzalez Estrada, Jose A. Villasenor Alva }
-\seealso{  \code{\link{gPd.test} for testing the gPd hypothesis}}
+\seealso{  \code{\link{gpd.test} for testing the gPd hypothesis}}
 \examples{
-rgPd(30,shape=1.5)    ## Generates 30 random numbers from a gPd with shape parameter 1.5.
+rgp(30,shape=1.5)    ## Generates 30 random numbers from a gPd with shape parameter 1.5.
 }
 \keyword{ distribution }

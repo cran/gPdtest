@@ -1,5 +1,5 @@
 
-gPd.fit <-  function(x,method)
+gpd.fit <-  function(x,method)
 {
     if(!(method %in% c("amle","combined")))
       stop("Unknown method. Please check the ``method'' argument in the help files.")
